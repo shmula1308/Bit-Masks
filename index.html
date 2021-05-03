@@ -20,114 +20,127 @@
     <title>Bit Masks</title>
   </head>
   <body>
-    <header>
-      <div class="header-background">
-        <h1 class="main-title">Bit Masks</h1>
-        <p class="description">
-          The goal of the Bit Masks app is demonstrate how to use bit masks to
-          evaluate longer sequences of switches without having to rely on long
-          strings of conditional statements.
-        </p>
-      </div>
-    </header>
-    <main>
-      <div class="main-container">
-        <div class="cities-container">
-          <fieldset>
-            <legend>City Timezones</legend>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" checked="checked" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-            <label class="container"
-              >Moscow: GMT +3
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-          </fieldset>
+    <div class="app-container">
+      <header>
+        <div class="header-background">
+          <h1 class="main-title">Bit Masks</h1>
+          <p class="description">
+            The goal of the Bit Masks app is demonstrate how to use bit masks to
+            evaluate longer sequences of switches without having to rely on long
+            strings of conditional statements.
+          </p>
         </div>
-      </div>
-      <div class="output-container">
-        <fieldset>
-          <legend>Result</legend>
-        </fieldset>
-      </div>
-      <div class="input-container">
-        <label for="timezones">GMT Offset:</label>
-        <input type="number" name="timezones" id="timezones" />
-        <button type="button">Find Cities<i class="fas fa-city"></i></button>
-      </div>
-    </main>
+      </header>
+      <main>
+        <div class="main-container">
+          <div class="cities-container flex-item">
+            <fieldset>
+              <legend>City Timezones</legend>
+              <label class="container"
+                >Moscow: GMT +3
+                <input type="checkbox" value="3" data-city="Moscow" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Paris: GMT +2
+                <input type="checkbox" value="2" data-city="Paris" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Berlin: GMT +2
+                <input type="checkbox" value="2" data-city="Berlin" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Brussels: GMT +2
+                <input type="checkbox" value="2" data-city="Brussels" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Amsterdam: GMT +2
+                <input type="checkbox" value="2" data-city="Amsterdam" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Rome: GMT +2
+                <input type="checkbox" value="2" data-city="Rome" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >London: GMT +1
+                <input type="checkbox" value="1" data-city="London" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Dublin: GMT +1
+                <input type="checkbox" value="1" data-city="Dublin" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >New York: GMT -4
+                <input type="checkbox" value="-4" data-city="New York" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Washington, DC: GMT -4
+                <input type="checkbox" value="-4" data-city="Washington, DC" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >St. Louis: GMT -5
+                <input type="checkbox" value="-5" data-city="St. Louis" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Los Angeles: GMT -7
+                <input type="checkbox" value="-7" data-city="Los Angeles" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Tokyo: GMT +9
+                <input type="checkbox" value="9" data-city="Tokyo" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Beijing: GMT +8
+                <input type="checkbox" value="8" data-city="Beijing" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Ho Chi Mihn City: GMT +7
+                <input type="checkbox" value="7" data-city="Ho Chi Mihn City" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Mumbai: GMT +5
+                <input type="checkbox" value="5" data-city="Mumbai" />
+                <span class="checkmark"></span>
+              </label>
+            </fieldset>
+          </div>
+          <div class="output-container flex-item">
+            <fieldset>
+              <legend>Result</legend>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <label for="timezones">GMT Offset:</label>
+          <label for="not">NOT in the GMT offset:</label>
+          <input
+            type="number"
+            name="timezones"
+            id="timezones"
+            placeholder="-12 to +12"
+            min="-12"
+            max="12"
+          />
+          <button type="button" class="btn main-btn">
+            Find Cities<i class="fas fa-city"></i>
+          </button>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
