@@ -10,13 +10,28 @@ conditional statements.
 
 ## User Stories
 
-- [ ] User can see a vertical list of checkboxes with the following cities
-      and their timezones: - Moscow: GMT +3 - Paris: GMT +2 - Berlin: GMT +2 - Brussels: GMT +2 - Amsterdam: GMT +2 - Rome: GMT +2 - London: GMT +1 - Dublin: GMT +1 - New York: GMT -4 - Washington, DC: GMT -4 - St. Louis: GMT -5 - Los Angeles: GMT -7 - Tokyo: GMT +9 - Beijing: GMT +8 - Ho Chi Mihn City: GMT +7 - Mumbai: GMT +5
-- [ ] User can see a GMT search box where an integer representing a GMT offset
-      can be entered into and a 'Find Cities' button.
-- [ ] User can click the 'Find Cities' button to display the names of the
-      cities in that GMT offset in an output area.
-
+-   [ ] User can see a vertical list of checkboxes with the following cities
+and their timezones:
+    - Moscow: GMT +3
+    - Paris: GMT +2
+    - Berlin: GMT +2
+    - Brussels: GMT +2
+    - Amsterdam: GMT +2
+    - Rome: GMT +2 
+    - London: GMT +1
+    - Dublin: GMT +1
+    - New York: GMT -4
+    - Washington, DC: GMT -4
+    - St. Louis: GMT -5
+    - Los Angeles: GMT -7
+    - Tokyo: GMT +9
+    - Beijing: GMT +8
+    - Ho Chi Mihn City: GMT +7
+    - Mumbai: GMT +5
+-   [ ] User can see a GMT search box where an integer representing a GMT offset
+can be entered into and a 'Find Cities' button.
+-   [ ] User can click the 'Find Cities' button to display the names of the
+cities in that GMT offset in an output area.
 ### Developer Notes
 
 For this exercise the developer should use sequences of 24
