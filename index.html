@@ -121,13 +121,23 @@
           <div class="output-container flex-item">
             <fieldset>
               <legend>Result</legend>
+              <!-- <div class="summary">Total number: 13</div> -->
             </fieldset>
           </div>
         </div>
-
         <div class="input-container">
-          <label for="timezones">GMT Offset:</label>
-          <label for="not">NOT in the GMT offset:</label>
+          <div class="label-container">
+            <label for="timezones">GMT Offset:</label>
+            <div class="not-label">
+              <input
+                type="checkbox"
+                name="notCheckbox"
+                id="notCheckbox"
+                class="notOffset"
+              />
+              <label for="notCheckbox">NOT</label>
+            </div>
+          </div>
           <input
             type="number"
             name="timezones"

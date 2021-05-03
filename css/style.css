@@ -125,9 +125,25 @@ fieldset {
   color: aliceblue;
 }
 
-.input-container label,
-.input-container input {
+
+.input-container input, 
+.input-container label{
   margin-bottom: 0.5em;
+}
+
+.label-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.not-label {
+  display: flex;
+}
+
+.summary {
+  font-weight: 700;
 }
 
 
